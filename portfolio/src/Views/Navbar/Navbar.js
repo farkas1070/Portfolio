@@ -1,41 +1,37 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+import NavbarLink from './Components/NavbarLink';
 
 const Navbar = () => {
-  return (
-    <div className="bg-transparent py-4 relative">
-      <nav className="container mx-auto flex justify-center mt-2">
-        <ul className="flex space-x-8">
-          <li>
-            <a href="#" className="text-white font-custom text-sm  duration-100 hover:text-orange-500">
-              ABOUT ME
-            </a>
-          </li>
+  const [scrolling, setScrolling] = useState(false);
 
-          <li>
-            <a href="#" className="text-white font-custom  text-sm duration-100 hover:text-orange-500">
-              RESUME
-            </a>
-          </li>
-          <li>
-            <a href="#" className="text-white font-custom text-sm duration-100 hover:text-orange-500">
-              SERVICES
-            </a>
-          </li>
-          <li>
-            <a href="#" className="text-white font-custom text-sm duration-100 hover:text-orange-500">
-              MY PROJECTS
-            </a>
-          </li>
-          <li>
-            <a href="#" className="text-white font-custom text-sm duration-100 hover:text-orange-500">
-              PORTFOLIO
-            </a>
-          </li>
-          <li>
-            <a href="#" className="text-white font-custom text-sm duration-100 hover:text-orange-500">
-              CONTACT
-            </a>
-          </li>
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setScrolling(true);
+    } else {
+      setScrolling(false);
+    }
+  };
+  return (
+    <div className={`py-4 fixed relative transition-all duration-500 ${
+      scrolling ? 'bg-[#0e0e0e]' : 'bg-transparent'
+    }`}>
+      <nav className="container mx-auto flex justify-center mt-2">
+        <ul className="flex space-x-10">
+          <NavbarLink to="about-me-section" text="ABOUT ME"></NavbarLink>
+          <NavbarLink to="resume-section" text="RESUME"></NavbarLink>
+          <NavbarLink to="technologies-section" text="TECHNOLOGIES"></NavbarLink>
+          <NavbarLink to="portfolio-section" text="PORTFOLIO"></NavbarLink>
+          
+          <NavbarLink to="contact-section" text="CONTACT"></NavbarLink>
+          
+         
         </ul>
       </nav>
     </div>

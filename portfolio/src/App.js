@@ -1,9 +1,12 @@
+import "./App.css";
+import { BrowserRouter } from "react-router-dom";
+import Navigation from "./Navigation/Navigation";
 
-import './App.css';
-import DashBoard from './Views/Main/DashBoard';
 function App() {
   return (
-   <DashBoard/>
+    <BrowserRouter>
+      <Navigation />
+    </BrowserRouter>
   );
 }
 
