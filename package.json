@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://farkas107.github.io/Portfolio",
+  "homepage": "https://farkas107.github.io",
   "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
