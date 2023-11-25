@@ -1,5 +1,5 @@
 import Navbar from "../Navbar/Navbar";
-import Video from "../../Assets/Videos/video5.mp4";
+import Video from "../../Assets/Videos/test.mp4";
 import Pic from "../../Assets/Photos/portrait.png";
 import { TypeAnimation } from "react-type-animation";
 import React, { useEffect } from "react";
@@ -14,6 +14,7 @@ const TopSection = () => {
           className="absolute inset-0 object-cover w-full h-full z-0"
           autoPlay
           muted
+          loading="lazy"
           loop
         >
           <source src={Video} type="video/mp4" />

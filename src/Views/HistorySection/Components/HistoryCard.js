@@ -44,13 +44,7 @@ const HistoryCard = ({cardTitle, description, date}) => {
       >
         Preview
       </button>
-      <button
-        type="button"
-        class="inline-block px-3.5 py-1 border-2 border-orange-600 text-orange-600 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-        data-mdb-ripple="true"
-      >
-        See demo
-      </button>
+      
     </div>
   </div>
   )
