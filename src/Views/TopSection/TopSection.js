@@ -29,7 +29,7 @@ const TopSection = () => {
                   class="  text-white flex flex-col items-start"
                 >
                   <h1 class=" mb-4 text-5xl font-custom3 flex md:text-6xl xl:text-7xl dark:text-white text-white ">
-                    Hi I'm Márton
+                    Hi I'm Márton Simon
                   </h1>
                   <div className="flex items-center justify-start text-orange-500 mt-12 mb-5">
                     <h1 className="text-2em  text-white">I Love{"   "}</h1>
