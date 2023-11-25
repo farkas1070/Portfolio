@@ -8,47 +8,48 @@ import Food4Me from "../../Assets/ProjectPhotos/food4me.jpg"
 import CatsleSearcher from "../../Assets/ProjectPhotos/kastelykereso.jpg"
 import Foodemy from "../../Assets/ProjectPhotos/foodemy.jpg"
 import Seatwave from "../../Assets/ProjectPhotos/seatwave.jpg"
+import Ecommerce from "../../Assets/ProjectPhotos/ecommerce.jpg"
 export const ProjectsSection = () => {
   const items = [
     {
       imageSrc: Winetour,
       name: "Sopron Winetour App",
-      description: "description for Image 1",
+      description: "An application made for the Sopron Wine Region Group in Sopron",
       href:"https://github.com/farkas1070/Winetour",
       id:'SopronWineTour',
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1699256239941-0b7222476c71?q=80&w=3240&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      name: "E-mdecinie",
-      description: "description for Image 2",
+      imageSrc:Ecommerce,
+      name: "Shuuz",
+      description: "An Online Shoe E-commrce platform",
       href:"https://github.com/farkas1070/ECommerceApp",
       id:'EMedicine',
     },
     {
       imageSrc: Food4Me,
       name: "Food4Me",
-      description: "description for Image 2",
+      description: "A Fitness, Social Media, And short vide-viewing application",
       href:"https://github.com/farkas1070/food4me",
       id:'food4Me',
     },
     {
       imageSrc: Seatwave,
       name: "Seatwave",
-      description: "description for Image 4",
+      description: "A Cinema Booking Website",
       href:"https://github.com/farkas1070/MovieSeatTrackerApp",
       id:'Seatwave',
     },
     {
       imageSrc: CatsleSearcher,
       name: "CastleSearcher",
-      description: "description for Image 5",
+      description: "A website dedicated to storing images taken in past vacations",
       href:"https://github.com/farkas1070/FamiliyGeoLocator",
       id:'CastleSearcher',
     },
     {
       imageSrc: Foodemy,
       name: "Foodemy",
-      description: "description for Image 2",
+      description: "An Online Food delivery platform with an E-commerce like functionality",
       href:"https://github.com/farkas1070/MovieSeatTrackerApp",
       id:'Foodemy',
     }
