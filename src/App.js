@@ -1,12 +1,9 @@
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
-import Navigation from "./Navigation/Navigation";
+import DashBoard from "./Views/Main/DashBoard";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Navigation />
-    </BrowserRouter>
+    <DashBoard></DashBoard>
   );
 }
 
