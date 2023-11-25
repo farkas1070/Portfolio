@@ -2,7 +2,7 @@ import React from "react";
 import Masonry from "react-responsive-masonry";
 import Card from "./Card";
 import "./Masonry.css";
-import { Link } from 'react-router-dom';
+
 const MasonryGrid = ({ items }) => {
   return (
     <Masonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
