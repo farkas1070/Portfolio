@@ -27,12 +27,12 @@ const TopSection = () => {
               <div class="gap-16 items-center py-8 px-4 mx-auto  lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 container">
                 <div
                   data-aos="fade-right"
-                  class="  text-white flex flex-col items-start"
+                  class="  text-white flex flex-col items-center lg:items-start"
                 >
-                  <h1 class=" mb-4 text-5xl font-custom3 flex md:text-6xl xl:text-7xl dark:text-white text-white ">
+                  <h1 class=" mt-6 text-5xl font-custom3 flex md:text-6xl xl:text-7xl dark:text-white text-white ">
                     Hi I'm Márton
                   </h1>
-                  <div className="flex items-center justify-start text-orange-500 mt-12 mb-5">
+                  <div className=" lg:flex items-center justify-start text-orange-500 mt-12 mb-5">
                     <h1 className="text-2em  text-white">I Love{"   "}</h1>
                     <TypeAnimation
                       sequence={[
@@ -41,7 +41,7 @@ const TopSection = () => {
                         1000, // wait 1s before replacing "Mice" with "Hamsters"
                         " Backend Development",
                         1000,
-                        " Designing Beautiful Websites",
+                        " Creating Websites",
                         1000,
                         " Learning New Things",
                         1000,
@@ -142,7 +142,7 @@ const TopSection = () => {
                     </a>
                   </div>
                 </div>
-                <div data-aos="fade-left" class="">
+                <div data-aos="fade-left" className="mt-10 lg:mt-10">
                   <img
                     src={Pic}
                     alt="Your Image"

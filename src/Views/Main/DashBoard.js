@@ -9,8 +9,8 @@ import { Contact } from "../Contact/Contact";
 import Footer from "../Footer/Footer"
 const DashBoard = () => {
   return (
-    <>
-      <div className=" fixed top-0 w-full z-20">
+    <div className="w-full">
+      <div className=" fixed top-0 w-screen z-20">
         <Navbar />
       </div>
       <TopSection />
@@ -20,7 +20,7 @@ const DashBoard = () => {
       <ProjectsSection />
       <Contact></Contact>
       <Footer/>
-    </>
+    </div>
   );
 };
 export default DashBoard;
