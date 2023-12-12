@@ -16,17 +16,17 @@ const AboutMeSection = () => {
   return (
     <div
       id="about-me-section"
-      className="relative bg-[#1d1d1d] flex flex-col items-center pb-40"
+      className="relative bg-[#1d1d1d] flex flex-col items-center pb-5 lg:pb-20"
     >
       <div className="w-full flex flex-col items-center">
         <h1
           data-aos="fade-up"
-          class="text-7xl pt-8 lg:pt-0 mt-[105px] mb-2 text-white font-custom3"
+          class="text-6xl lg:text-7xl  lg:pt-0 mt-[50px] lg:mt-[105px] mb-2 text-white font-custom3"
         >
           About Me
         </h1>
-        <h2 data-aos="fade-up" class="text-lg text-gray-300 mb-[60px]">
-          Subtitle text goes here
+        <h2 data-aos="fade-up" class="text-lg text-gray-300 mb-[0px] lg:mb-[60px]">
+          Who am I and what I do
         </h2>
       </div>
       <section

@@ -56,16 +56,17 @@ export const ProjectsSection = () => {
     // Add more items as needed
   ];
   return (
-    <div id="portfolio-section" className="flex flex-col w-full items-center bg-[#212024]">
-      <div className="w-full flex flex-col items-center">
+    <div id="portfolio-section" className="flex flex-col w-full items-center bg-[#212024] p-8">
+      
+      <div className="w-full flex flex-col items-center ">
         <h1
           data-aos="fade-up"
-          class="text-7xl pt-8 lg:pt-0 mt-[105px] mb-2 text-white font-custom3"
+          class="text-5xl text-center lg:text-7xl  lg:pt-0 mt-[50px] lg:mt-[105px] mb-2 text-white font-custom3"
         >
           My Portfolio
         </h1>
-        <h2 data-aos="fade-up" class="text-lg text-gray-300 mb-[60px]">
-          See some of the projects I have created over the years
+        <h2 data-aos="fade-up" class="text-lg text-gray-300 mb-[20px] lg:mb-[60px] text-center">
+        See some of the projects I have created over the years
         </h2>
       </div>
 

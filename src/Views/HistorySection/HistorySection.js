@@ -7,19 +7,20 @@ export const HistorySection = () => {
   return (
     <div
       id="resume-section"
-      className=" relative bg-cover bg-center bg-[#040304]"
+      className=" relative bg-cover bg-center bg-[#040304] p-8"
     >
       <div className="w-full flex flex-col items-center">
         <h1
           data-aos="fade-up"
-          class="text-7xl pt-8 lg:pt-0 mt-[105px] mb-2 text-white font-custom3"
+          class="text-6xl lg:text-7xl  lg:pt-0 mt-[50px] lg:mt-[105px] mb-2 text-white font-custom3"
         >
           My Resume
         </h1>
-        <h2 data-aos="fade-up" class="text-lg text-gray-300 mb-[60px]">
-          My Education and Prior work experience
+        <h2 data-aos="fade-up" class="text-lg text-gray-300 mb-[20px] lg:mb-[60px]">
+        My Education and Prior work experience
         </h2>
       </div>
+      
       <div
         data-aos="fade-up"
         class="container mx-auto flex flex-col lg:grid sm:grid-cols-2 gap-4"

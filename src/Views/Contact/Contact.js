@@ -32,7 +32,7 @@ export const Contact = () => {
   return (
     <div
       id="contact-section"
-      class="bg-[#040304] py-20  overflow-hidden  z-10 flex flex-col items-center"
+      class="bg-[#040304] py-20  overflow-hidden  z-10 flex flex-col items-center p-8"
     >
       <div className="w-full flex flex-col items-center">
         <h1

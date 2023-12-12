@@ -73,7 +73,7 @@ const TechnologiesSection = () => {
   return (
     <div
       id="technologies-section"
-      className="relative bg-cover bg-center"
+      className="relative bg-cover bg-center "
       style={{
         backgroundImage: `url(${Background})`,
       }}
@@ -85,20 +85,21 @@ const TechnologiesSection = () => {
         }}
       ></div>
 
-      <div className="container flex flex-col mx-auto">
-        <div className="w-full flex flex-col items-center">
-          <h1
-            data-aos="fade-up"
-            className="text-7xl pt-8 lg:pt-0 mt-[105px] mb-2 text-white font-custom3"
-          >
-            Technologies I Learned
-          </h1>
-          <h2 data-aos="fade-up" className="text-lg text-gray-300 mb-[60px]">
-            See All the technologies I have used
-          </h2>
-        </div>
+      <div className="container flex flex-col mx-auto p-8">
+      <div className="w-full flex flex-col items-center ">
+        <h1
+          data-aos="fade-up"
+          class="text-5xl text-center lg:text-7xl  lg:pt-0 mt-[50px] lg:mt-[105px] mb-2 text-white font-custom3"
+        >
+          Technologies I Learned
+        </h1>
+        <h2 data-aos="fade-up" class="text-lg text-gray-300 mb-[20px] lg:mb-[60px]">
+        See All the technologies I have used
+        </h2>
+      </div>
+       
         <div  className="w-full draggable">
-          <div className="container flex flex-col items-center gap-16 mx-auto my-32">
+          <div className="container flex flex-col items-center gap-16 mx-auto my-10 lg:my-10">
           <div className="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-5">
           {currentCards.map((card, index) => (
             <div key={index} data-aos='fade-up' className={`transition-opacity duration-500 opacity-${showAll ? '100' : '0'}`}>
