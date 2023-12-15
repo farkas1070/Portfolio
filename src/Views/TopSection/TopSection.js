@@ -29,7 +29,7 @@ const TopSection = () => {
                   data-aos="fade-right"
                   class="  text-white flex flex-col items-center lg:items-start"
                 >
-                  <h1 class=" mt-6 text-5xl font-custom3 flex md:text-6xl xl:text-7xl dark:text-white text-white ">
+                  <h1 class=" mt-20 lg:mt-0 text-5xl font-custom3 flex md:text-6xl xl:text-7xl dark:text-white text-white ">
                     Hi I'm Márton
                   </h1>
                   <div className=" lg:flex items-center justify-start text-orange-500 mt-12 mb-5">

@@ -12,11 +12,11 @@ export const HistorySection = () => {
       <div className="w-full flex flex-col items-center">
         <h1
           data-aos="fade-up"
-          class="text-6xl lg:text-7xl  lg:pt-0 mt-[50px] lg:mt-[105px] mb-2 text-white font-custom3"
+          class="text-5xl lg:text-7xl  lg:pt-0 mt-[50px] lg:mt-[105px] mb-2 text-white font-custom3 text-center"
         >
           My Resume
         </h1>
-        <h2 data-aos="fade-up" class="text-lg text-gray-300 mb-[20px] lg:mb-[60px]">
+        <h2 data-aos="fade-up" class="text-lg text-gray-300 mb-[20px] lg:mb-[60px] text-center">
         My Education and Prior work experience
         </h2>
       </div>

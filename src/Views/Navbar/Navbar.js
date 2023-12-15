@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import NavbarLink from './Components/NavbarLink';
 import Menu from "../../Assets/SVGs/menu.svg"
+import Modal from './Components/Modal';
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
+  };
+  const closeMenu = () => {
+    setMenuOpen(false);
   };
 
   useEffect(() => {
@@ -42,18 +46,10 @@ const Navbar = () => {
           <button onClick={toggleMenu} className="text-white">
           <img src={Menu} className="w-6 h-6" alt="logo" />
           </button>
-
           {isMenuOpen && (
-            <div className="absolute top-16 right-4 bg-[#0e0e0e] p-4">
-              <ul>
-                <li><NavbarLink to="about-me-section" text="ABOUT ME" /></li>
-                <li><NavbarLink to="resume-section" text="RESUME" /></li>
-                <li><NavbarLink to="technologies-section" text="TECHNOLOGIES" /></li>
-                <li><NavbarLink to="portfolio-section" text="PORTFOLIO" /></li>
-                <li><NavbarLink to="contact-section" text="CONTACT" /></li>
-              </ul>
-            </div>
+            <Modal onClose={closeMenu} isOpen={isMenuOpen} />
           )}
+          
           </div>
       </nav>
     </div>
