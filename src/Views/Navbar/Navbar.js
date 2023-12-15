@@ -47,7 +47,7 @@ const Navbar = () => {
           <img src={Menu} className="w-6 h-6" alt="logo" />
           </button>
           {isMenuOpen && (
-            <Modal onClose={closeMenu} isOpen={isMenuOpen} />
+            <Modal onClose={closeMenu} isOpen={isMenuOpen} handleOpen={toggleMenu} />
           )}
           
           </div>

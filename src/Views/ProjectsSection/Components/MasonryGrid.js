@@ -6,6 +6,7 @@ import "./Masonry.css";
 const MasonryGrid = ({ items }) => {
   return (
     <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+      <Masonry>
       {items.map((item, index) => (
         <a
         href={item.href}
@@ -33,6 +34,7 @@ const MasonryGrid = ({ items }) => {
         </div>
         </a>
       ))}
+      </Masonry>
     </ResponsiveMasonry>
   );
 };
