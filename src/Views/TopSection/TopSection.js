@@ -32,7 +32,7 @@ const TopSection = () => {
                   <h1 class=" mt-20 lg:mt-0 text-5xl font-custom3 flex md:text-6xl xl:text-7xl dark:text-white text-white ">
                     Hi I'm Márton
                   </h1>
-                  <div className=" lg:flex items-center justify-start text-orange-500 mt-12 mb-5">
+                  <div className=" lg:flex items-center justify-start text-orange-800 mt-12 mb-5">
                     <h1 className="text-2em  text-white">I Love{"   "}</h1>
                     <TypeAnimation
                       sequence={[
@@ -60,7 +60,7 @@ const TopSection = () => {
                   <div>
                     <a
                       href="#_"
-                      class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-white transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-orange-600 group"
+                      class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-white transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-orange-800 group"
                     >
                       <span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-white group-hover:h-full"></span>
                       <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
@@ -81,7 +81,7 @@ const TopSection = () => {
                       </span>
                       <span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
                         <svg
-                          class="w-5 h-5 text-orange-600"
+                          class="w-5 h-5 text-orange-800"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
@@ -95,18 +95,18 @@ const TopSection = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-orange-600">
+                      <span class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-orange-800">
                         About Me
                       </span>
                     </a>
                     <a
                       href="#_"
-                      class="ml-5 relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-orange-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
+                      class="ml-5 relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-orange-800 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
                     >
-                      <span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-orange-600 group-hover:h-full"></span>
+                      <span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-orange-800 group-hover:h-full"></span>
                       <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                         <svg
-                          class="w-5 h-5 text-orange-600"
+                          class="w-5 h-5 text-orange-800"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"

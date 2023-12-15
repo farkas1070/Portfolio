@@ -49,8 +49,8 @@ const AboutMeSection = () => {
           />
         </div>
         <div class="w-full md:w-7/12 md:pl-20 h-full">
-          <div class="relative rounded-lg bg-orange-600 inline-block p-2 text-white mb-8">
-            <div class="absolute bottom-1 left-0 transform left-2 rotate-45 -mb-2 h-6 w-6 bg-orange-600 z-10"></div>
+          <div class="relative rounded-lg bg-orange-800 inline-block p-2 text-white mb-8">
+            <div class="absolute bottom-1 left-0 transform left-2 rotate-45 -mb-2 h-6 w-6 bg-orange-800 z-10"></div>
             <p class="relative  z-20">HALLO</p>
           </div>
           <h1 class="text-4xl text-white">
@@ -61,7 +61,7 @@ const AboutMeSection = () => {
             I have been learning Web development for many years, I also worked
             with IT companies before like Effix marketing Kft.
           </p>
-          <hr class="bg-orange-600 my-8" />
+          <hr class="bg-orange-800 my-8" />
           <ul class="flex flex-col">
             <li class="mb-6 flex flex-row">
               <div class="font-bold w-1/12 text-white">Age</div>
@@ -95,7 +95,7 @@ const AboutMeSection = () => {
             </li>
             <li class="mb-6 flex flex-row text-white">
               <div class="w-1/12">
-                <div class="inline-block bg-orange-600 p-1 rounded text-white">
+                <div class="inline-block bg-orange-800 p-1 rounded text-white">
                   Service
                 </div>
               </div>
@@ -112,7 +112,7 @@ const AboutMeSection = () => {
                  target="_blank"
                  class=" font-medium text-white group"
                 >
-                <button  class=" border-2 mr-2 border-orange-600 hover:border-orange-300 text-white font-bold py-2 px-4 lg:px-6 rounded-full">
+                <button  class=" border-2 mr-2 border-orange-800 hover:border-orange-300 text-white font-bold py-2 px-4 lg:px-6 rounded-full">
                 <img src={HU} className="w-5 h-5" alt="logo" />
                 </button>
                 </a>
@@ -121,7 +121,7 @@ const AboutMeSection = () => {
                 download="Lebenslauf"
                 target="_blank"
                 >
-                <button class="border-2 mr-2 border-orange-600 hover:border-orange-300 text-white font-bold py-2 px-4 lg:px-6 rounded-full">
+                <button class="border-2 mr-2 border-orange-800 hover:border-orange-300 text-white font-bold py-2 px-4 lg:px-6 rounded-full">
                 <img src={DE} className="w-5 h-5" alt="logo" />
                 </button>
                 </a>
@@ -130,7 +130,7 @@ const AboutMeSection = () => {
                  download="CV"
                  target="_blank"
                 >
-                <button class="border-2 border-orange-600 hover:border-orange-300 text-white font-bold py-2 px-4 lg:px-6 rounded-full">
+                <button class="border-2 border-orange-800 hover:border-orange-300 text-white font-bold py-2 px-4 lg:px-6 rounded-full">
                 <img src={EN} className="w-5 h-5" alt="logo" />
                 </button>
                 </a>
@@ -145,7 +145,7 @@ const AboutMeSection = () => {
               data-tippy-content="@facebook_handle"
             >
               <svg
-                class="h-10 fill-current text-orange-600 hover:text-white"
+                class="h-10 fill-current text-orange-800 hover:text-white"
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -161,7 +161,7 @@ const AboutMeSection = () => {
               data-tippy-content="@github_handle"
             >
               <svg
-                class="h-10 fill-current text-orange-600 hover:text-white"
+                class="h-10 fill-current text-orange-800 hover:text-white"
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -177,7 +177,7 @@ const AboutMeSection = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-11 fill-current text-orange-600 hover:text-white"
+                class="h-11 fill-current text-orange-800 hover:text-white"
                 viewBox="0 0 50 50"
               >
                 <title>LinkedIN</title>
@@ -187,7 +187,7 @@ const AboutMeSection = () => {
 
             <a class="link" href="#" data-tippy-content="@instagram_handle">
               <svg
-                class="h-10 fill-current text-orange-600 hover:text-white"
+                class="h-10 fill-current text-orange-800 hover:text-white"
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"

@@ -3,7 +3,7 @@ import React from 'react'
 const HistoryCard = ({cardTitle, description, date}) => {
   return (
     <div class="md:flex flex-start">
-    <div class="bg-orange-600 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
+    <div class="bg-orange-800 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
       <svg
         aria-hidden="true"
         focusable="false"
@@ -23,13 +23,13 @@ const HistoryCard = ({cardTitle, description, date}) => {
       <div class="flex justify-between mb-4">
         <a
           href="#!"
-          class="font-medium text-orange-600 hover:text-orange-400 focus:text-purple-800 duration-300 transition ease-in-out text-sm"
+          class="font-medium text-orange-800 hover:text-orange-400 focus:text-purple-800 duration-300 transition ease-in-out text-sm"
         >
           {cardTitle}
         </a>
         <a
           href="#!"
-          class="font-medium text-orange-600 hover:text-orange-400 focus:text-purple-800 duration-300 transition ease-in-out text-sm"
+          class="font-medium text-orange-800 hover:text-orange-400 focus:text-purple-800 duration-300 transition ease-in-out text-sm"
         >
           {date}
         </a>
