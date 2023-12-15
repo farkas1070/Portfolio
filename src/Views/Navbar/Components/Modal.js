@@ -1,5 +1,6 @@
 import React from 'react';
 import Close from "../../../Assets/SVGs/close.svg"
+import NavbarLink from './NavbarLink';
 const Modal = ({ onClose }) => {
   return (
     <div className="fixed inset-0 bg-[#24292e] bg-opacity-100 flex items-center justify-center p-5 transition-opacity">
@@ -10,11 +11,12 @@ const Modal = ({ onClose }) => {
         </button>
         <ul>
           {/* Menu items */}
-          <li className="font-custom font-medium mb-2 text-xl mt-5">About Me</li>
-          <li className="font-custom font-medium mb-2 text-xl mt-5">Resume</li>
-          <li className="font-custom font-medium mb-2 text-xl mt-5">Technologies</li>
-          <li className="font-custom font-medium mb-2 text-xl mt-5">Portfolio</li>
-          <li className="font-custom font-medium mb-2 text-xl mt-5">Contact</li>
+          <NavbarLink ></NavbarLink>
+          <NavbarLink to="about-me-section" text="ABOUT ME" isInModal={true} onCloseModal={onClose}/>
+          <NavbarLink to="resume-section" text="RESUME" isInModal={true} onCloseModal={onClose}/>
+          <NavbarLink to="technologies-section" text="TECHNOLOGIES" isInModal={true} onCloseModal={onClose}/>
+          <NavbarLink to="portfolio-section" text="PORTFOLIO" isInModal={true} onCloseModal={onClose}/>
+          <NavbarLink to="contact-section" text="CONTACT" isInModal={true} onCloseModal={onClose}/>
         </ul>
       </div>
     </div>
