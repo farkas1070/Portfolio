@@ -14,7 +14,7 @@ const Card = ({rowSpan, colStart, rowStart, imgSource, title, description}) => {
               <img
                 src={imgSource}
                 class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110"
-                alt=""
+                alt="s"
               />
             </div>
             <div class="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
