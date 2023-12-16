@@ -9,8 +9,14 @@ export const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  
+  
 
  const {REACT_APP_EMAILJS_SERVICE_ID,REACT_APP_EMAILJS_TEMPLATE_ID,REACT_APP_EMAILJS_PUBLIC_KEY} = process.env
+ console.log(REACT_APP_EMAILJS_SERVICE_ID)
+  console.log(REACT_APP_EMAILJS_TEMPLATE_ID)
+  
+  console.log(REACT_APP_EMAILJS_PUBLIC_KEY)
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(REACT_APP_EMAILJS_SERVICE_ID)
@@ -34,10 +40,11 @@ export const Contact = () => {
       id="contact-section"
       class="bg-[#040304] py-20  overflow-hidden  z-10 flex flex-col items-center p-8"
     >
+      <ToastContainer  />
       <div className="w-full flex flex-col items-center">
         <h1
           data-aos="fade-up"
-          className="text-7xl pt-8 lg:pt-0  mb-2 text-white font-custom3"
+          className="text-7xl pt-8 lg:pt-0  mb-2 text-white font-custom3 text-center"
         >
           Let's stay in touch
         </h1>
@@ -220,7 +227,7 @@ export const Contact = () => {
                     Send Message
                   </button>
                 </div>
-                <ToastContainer className="mt-20" />
+                
               </form>
               <div>
                 <span class="absolute -top-10 -right-9 z-[-1]">

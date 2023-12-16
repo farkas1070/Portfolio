@@ -7,7 +7,7 @@ export default function Card({imgSource,name,expLevel}) {
       <img src={imgSource} className="w-20 h-20" alt="logo" />
     </span>
     <p class="text-2xl font-extrabold text-[#e5e8ed]">{name}</p>
-    <p class="text-base leading-7 text-[#e5e8ed]">{expLevel}</p>
+    <p class="text-base leading-7 text-[#e5e8ed] font-custom">{expLevel}</p>
   </div>
   );
 }
