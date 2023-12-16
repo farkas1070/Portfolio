@@ -13,10 +13,7 @@ export const Contact = () => {
   
 
  const {REACT_APP_EMAILJS_SERVICE_ID,REACT_APP_EMAILJS_TEMPLATE_ID,REACT_APP_EMAILJS_PUBLIC_KEY} = process.env
- console.log(REACT_APP_EMAILJS_SERVICE_ID)
-  console.log(REACT_APP_EMAILJS_TEMPLATE_ID)
-  
-  console.log(REACT_APP_EMAILJS_PUBLIC_KEY)
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(REACT_APP_EMAILJS_SERVICE_ID)
