@@ -9,6 +9,8 @@ const MasonryGrid = ({ items }) => {
       <Masonry>
       {items.map((item, index) => (
         <a
+        target="_blank"
+        rel="noopener noreferrer"
         href={item.href}
         >
         <div className="custom-masonry-item">
@@ -20,7 +22,7 @@ const MasonryGrid = ({ items }) => {
                 alt=""
               />
             </div>
-            <div className="absolute inset-0 flex items-center justify-center z-20 m-0  transition duration-300 ease-in-out opacity-0 group-hover:opacity-100 group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+            <div className="absolute inset-0 flex items-center justify-center z-20 m-0  px-10 transition duration-300 ease-in-out opacity-0 group-hover:opacity-100 group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
               <div className="text-center">
                 <h1 className="font-custom2 text-4xl font-bold text-white shadow-xl">
                   {item.name}

@@ -22,7 +22,7 @@ export const ProjectsSection = () => {
       imageSrc:Ecommerce,
       name: "Shuuz",
       description: "An Online Shoe E-commrce platform",
-      href:"https://github.com/farkas1070/ECommerceApp",
+      href:"https://github.com/farkas1070/EcommerceProject",
       id:'EMedicine',
     },
     {
