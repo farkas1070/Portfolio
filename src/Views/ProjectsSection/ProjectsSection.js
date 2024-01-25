@@ -25,6 +25,7 @@ export const ProjectsSection = () => {
       href:"https://github.com/farkas1070/EcommerceProject",
       id:'EMedicine',
     },
+    
     {
       imageSrc: Food4Me,
       name: "Food4Me",
@@ -46,6 +47,7 @@ export const ProjectsSection = () => {
       href:"https://github.com/farkas1070/FamiliyGeoLocator",
       id:'CastleSearcher',
     },
+    
     {
       imageSrc: Foodemy,
       name: "Foodemy",

@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import React, { useEffect } from "react";
 import "aos/dist/aos.css"; // Import AOS CSS
 import AOS from "aos";
-
+import { Link } from "react-scroll";
 const TopSection = () => {
   return (
     <>
@@ -95,9 +95,11 @@ const TopSection = () => {
                           ></path>
                         </svg>
                       </span>
+                      <Link to={'about-me-section'} spy={true} smooth={true} offset={-70} duration={500}>
                       <span class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-orange-800">
                         About Me
                       </span>
+                      </Link>
                     </a>
                     <a
                       href="#_"
@@ -136,9 +138,12 @@ const TopSection = () => {
                           ></path>
                         </svg>
                       </span>
+                      <Link to={'portfolio-section'} spy={true} smooth={true} offset={-70} duration={500}>
+
                       <span class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">
                         My Projects
                       </span>
+                      </Link>
                     </a>
                   </div>
                 </div>

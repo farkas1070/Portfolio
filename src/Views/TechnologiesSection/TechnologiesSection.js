@@ -18,6 +18,9 @@ import gitSVG from "../../Assets/SVGs/git.svg";
 import GraphqlSVG from "../../Assets/SVGs/graphql.svg";
 import PythonSVG from "../../Assets/SVGs/python.svg";
 import CppSVG from "../../Assets/SVGs/cpp.svg";
+import VueSVG from "../../Assets/SVGs/vue.svg";
+import LaravelSVG from "../../Assets/SVGs/laravel.svg";
+import PhpSVG from "../../Assets/SVGs/php.svg";
 import TypescriptSVG from "../../Assets/SVGs/typescript.svg";
 import Background from "../../Assets/Photos/background.jpg";
 import React, { useState, useEffect } from "react";
@@ -46,6 +49,9 @@ const TechnologiesSection = () => {
     { imgSource: CssSVG, name: "CSS3", expLevel: "Experienced" },
     { imgSource: JavascriptSVG, name: "Javascript", expLevel: "Experienced" },
     { imgSource: CsharpSVG, name: "C#", expLevel: "Intermediate" },
+    { imgSource: VueSVG, name: "Vue.js", expLevel: "Beginner" },
+    { imgSource: LaravelSVG, name: "Laravel", expLevel: "Intermediate" },
+    { imgSource: PhpSVG, name: "PHP", expLevel: "Intermediate" },
     { imgSource: TailwindSVG, name: "Tailwind", expLevel: "Experienced" },
     { imgSource: NodejsSVG, name: "NodeJS", expLevel: "Intermediate" },
     { imgSource: FigmaSVG, name: "Figma", expLevel: "Intermediate" },
@@ -58,6 +64,7 @@ const TechnologiesSection = () => {
     { imgSource: CppSVG, name: "C++", expLevel: "Intermedate" },
     { imgSource: GraphqlSVG, name: "Graphql", expLevel: "Intermediate" },
     { imgSource: TypescriptSVG, name: "TypeSrcipt", expLevel: "Experienced" },
+    
     
   ];
   const [showAll, setShowAll] = useState(false);
@@ -100,7 +107,7 @@ const TechnologiesSection = () => {
        
         <div  className="w-full draggable">
           <div className="container flex flex-col items-center gap-16 mx-auto my-10 lg:my-10">
-          <div className="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-5">
+          <div className="grid w-full grid-cols-1 gap-5  md:grid-cols-2 lg:grid-cols-5">
           {currentCards.map((card, index) => (
             <div key={index} data-aos='fade-up' className={`transition-opacity duration-500 opacity-${showAll ? '100' : '0'}`}>
               <Card

@@ -7,6 +7,7 @@ import { HistorySection } from "../HistorySection/HistorySection";
 import Navbar from "../Navbar/Navbar";
 import { Contact } from "../Contact/Contact";
 import Footer from "../Footer/Footer"
+
 const DashBoard = () => {
   return (
     <div className="w-full">
@@ -18,6 +19,7 @@ const DashBoard = () => {
       <HistorySection />
       <TechnologiesSection />
       <ProjectsSection />
+      
       <Contact></Contact>
       <Footer/>
     </div>
